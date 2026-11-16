@@ -1,0 +1,1469 @@
+{
+  "quotes" : [
+    {
+      "english" : "Don’t hold onto things that require a tight grip.",
+      "id" : "fortune-001"
+    },
+    {
+      "english" : "I didn’t come this far to only come this far.",
+      "id" : "fortune-002"
+    },
+    {
+      "english" : "Vulnerability sounds like faith and looks like courage.",
+      "id" : "fortune-003"
+    },
+    {
+      "english" : "And into the forest I go, to lose my mind and find my soul.",
+      "id" : "fortune-004"
+    },
+    {
+      "english" : "Do it scared.",
+      "id" : "fortune-005"
+    },
+    {
+      "english" : "Look how far you've come.",
+      "id" : "fortune-006"
+    },
+    {
+      "english" : "Each time you break your own boundaries to ensure that someone else likes you, you like yourself a little less.",
+      "id" : "fortune-007"
+    },
+    {
+      "english" : "Sitting in silence with you is all the noise I need.",
+      "id" : "fortune-008"
+    },
+    {
+      "english" : "There is nothing stronger than a broken woman who has rebuilt herself.",
+      "id" : "fortune-009"
+    },
+    {
+      "english" : "Every good and perfect gift is from above.",
+      "id" : "fortune-010"
+    },
+    {
+      "english" : "Love does not have have prerequisites like perfection, agreement or even likability.",
+      "id" : "fortune-011"
+    },
+    {
+      "english" : "The art of life is not controlling what happens to us, but using what happens to us.",
+      "id" : "fortune-012"
+    },
+    {
+      "english" : "Be careful who you trust. Salt and sugar look the same.",
+      "id" : "fortune-013"
+    },
+    {
+      "english" : "Tough love only works when there's as much love as there is tough.",
+      "id" : "fortune-014"
+    },
+    {
+      "english" : "Joy is what happens to us when we allow ourselves to recognize how good things really are.",
+      "id" : "fortune-015"
+    },
+    {
+      "english" : "Every new beginning comes from some other beginning's end.",
+      "id" : "fortune-016"
+    },
+    {
+      "english" : "Little by little, one travels far.",
+      "id" : "fortune-017"
+    },
+    {
+      "english" : "What good are wings, without the courage to fly.",
+      "id" : "fortune-018"
+    },
+    {
+      "english" : "She lives the poetry she cannot write.",
+      "id" : "fortune-019"
+    },
+    {
+      "english" : "I can't go back to yesterday because I was a different person then.",
+      "id" : "fortune-020"
+    },
+    {
+      "english" : "Don't let yesterday take up too much of today.",
+      "id" : "fortune-021"
+    },
+    {
+      "english" : "I never dreamed about success. I worked for it.",
+      "id" : "fortune-022"
+    },
+    {
+      "english" : "If you want the rainbow, you gotta put up with the rain!",
+      "id" : "fortune-023"
+    },
+    {
+      "english" : "One person alone is not a full person; we exist in relation to others.",
+      "id" : "fortune-024"
+    },
+    {
+      "english" : "All we have to decide is what to do with the time that is given to us.",
+      "id" : "fortune-025"
+    },
+    {
+      "english" : "It's only after we've lost everything that we're free to do anything.",
+      "id" : "fortune-026"
+    },
+    {
+      "english" : "A woman is like a tea bag; you never know how strong it is until it's in hot water.",
+      "id" : "fortune-027"
+    },
+    {
+      "english" : "Love all, trust a few, do wrong to none.",
+      "id" : "fortune-028"
+    },
+    {
+      "english" : "One bad chapter doesn't mean your story is over.",
+      "id" : "fortune-029"
+    },
+    {
+      "english" : "You are not what you've done. You are what you keep doing.",
+      "id" : "fortune-030"
+    },
+    {
+      "english" : "It is never too late to be what you might have been.",
+      "id" : "fortune-031"
+    },
+    {
+      "english" : "Loving yourself isn't vanity. It's sanity.",
+      "id" : "fortune-032"
+    },
+    {
+      "english" : "Do not let making a living prevent you from making a life.",
+      "id" : "fortune-033"
+    },
+    {
+      "english" : "Turn your wounds into wisdom.",
+      "id" : "fortune-034"
+    },
+    {
+      "english" : "The road to success is always under construction.",
+      "id" : "fortune-035"
+    },
+    {
+      "english" : "You must expect great things of yourself before you can do them.",
+      "id" : "fortune-036"
+    },
+    {
+      "english" : "Always do your best. What you plant now, you will harvest later.",
+      "id" : "fortune-037"
+    },
+    {
+      "english" : "The most effective way to do it, is to do it.",
+      "id" : "fortune-038"
+    },
+    {
+      "english" : "Not all those who wander are lost.",
+      "id" : "fortune-039"
+    },
+    {
+      "english" : "The worst enemy to creativity is self-doubt.",
+      "id" : "fortune-040"
+    },
+    {
+      "english" : "If we wait until we're ready, we'll be waiting for the rest of our lives.",
+      "id" : "fortune-041"
+    },
+    {
+      "english" : "The only limits for tomorrow are the doubts we have today.",
+      "id" : "fortune-042"
+    },
+    {
+      "english" : "All endings are also beginnings. We just don't know it at the time.",
+      "id" : "fortune-043"
+    },
+    {
+      "english" : "Well behaved women seldom make history.",
+      "id" : "fortune-044"
+    },
+    {
+      "english" : "You are your best thing.",
+      "id" : "fortune-045"
+    },
+    {
+      "english" : "There is always something left to love.",
+      "id" : "fortune-046"
+    },
+    {
+      "english" : "It does not do to dwell on dreams and forget to live.",
+      "id" : "fortune-047"
+    },
+    {
+      "english" : "I am not afraid of storms, for I am learning how to sail my ship.",
+      "id" : "fortune-048"
+    },
+    {
+      "english" : "Breathe, Darling, this is just a chapter, not your whole story.",
+      "id" : "fortune-049"
+    },
+    {
+      "english" : "We don't stop going to school when we graduate.",
+      "id" : "fortune-050"
+    },
+    {
+      "english" : "Graduates, we need you to save the world.",
+      "id" : "fortune-051"
+    },
+    {
+      "english" : "Graduation is the first step of the next chapter of your life.",
+      "id" : "fortune-052"
+    },
+    {
+      "english" : "Graduation isn't the end of a tough journey. It is the beginning of a beautiful one.",
+      "id" : "fortune-053"
+    },
+    {
+      "english" : "Graduation is not the end; it's the beginning.",
+      "id" : "fortune-054"
+    },
+    {
+      "english" : "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+      "id" : "fortune-055"
+    },
+    {
+      "english" : "No matter what people tell you, words and ideas can change the world.",
+      "id" : "fortune-056"
+    },
+    {
+      "english" : "The best way to predict your future is to create it.",
+      "id" : "fortune-057"
+    },
+    {
+      "english" : "Don't cry because it's over. Smile because it happened.",
+      "id" : "fortune-058"
+    },
+    {
+      "english" : "Stay hungry. Stay foolish.",
+      "id" : "fortune-059"
+    },
+    {
+      "english" : "Get busy living or get busy dying.",
+      "id" : "fortune-060"
+    },
+    {
+      "english" : "Try and fail, but never fail to try.",
+      "id" : "fortune-061"
+    },
+    {
+      "english" : "A journey of a thousand miles begins with a single step.",
+      "id" : "fortune-062"
+    },
+    {
+      "english" : "Persistence can change failure into extraordinary achievement.",
+      "id" : "fortune-063"
+    },
+    {
+      "english" : "It takes courage to grow up and become who you really are.",
+      "id" : "fortune-064"
+    },
+    {
+      "english" : "It's better to be a failure at something you love than to be a success at something you hate.",
+      "id" : "fortune-065"
+    },
+    {
+      "english" : "If I must give any of you advice it would be say yes. Say yes, and create your own destiny.",
+      "id" : "fortune-066"
+    },
+    {
+      "english" : "Don't be afraid. Be focused. Be determined. Be hopeful. Be empowered.",
+      "id" : "fortune-067"
+    },
+    {
+      "english" : "The future belongs to those who believe in the beauty of their dreams.",
+      "id" : "fortune-068"
+    },
+    {
+      "english" : "Kid, you'll move mountains.",
+      "id" : "fortune-069"
+    },
+    {
+      "english" : "There are no regrets in life. Just lessons.",
+      "id" : "fortune-070"
+    },
+    {
+      "english" : "There are far, far better things ahead than any we leave behind.",
+      "id" : "fortune-071"
+    },
+    {
+      "english" : "Believe and act as if it were impossible to fail.",
+      "id" : "fortune-072"
+    },
+    {
+      "english" : "If you can imagine it, you can achieve it; if you can dream it, you can become it.",
+      "id" : "fortune-073"
+    },
+    {
+      "english" : "Things turn out best for people who make the best out of the way things turn out.",
+      "id" : "fortune-074"
+    },
+    {
+      "english" : "The only impossible journey is the one you never begin.",
+      "id" : "fortune-075"
+    },
+    {
+      "english" : "The fireworks begin today. Each diploma is a lighted match. Each one of you is a fuse.",
+      "id" : "fortune-076"
+    },
+    {
+      "english" : "Always aim high, work hard, and care deeply about what you believe in.",
+      "id" : "fortune-077"
+    },
+    {
+      "english" : "The beautiful thing about learning is that no one can take it away from you.",
+      "id" : "fortune-078"
+    },
+    {
+      "english" : "Start where you are. Use what you have. Do what you can.",
+      "id" : "fortune-079"
+    },
+    {
+      "english" : "Be bold, be courageous, be your best.",
+      "id" : "fortune-080"
+    },
+    {
+      "english" : "There's no way to be a perfect mother and a million ways to be a good one.",
+      "id" : "fortune-081"
+    },
+    {
+      "english" : "Being a mother is learning about strengths you didn't know you had.",
+      "id" : "fortune-082"
+    },
+    {
+      "english" : "When I became a mother, it was then I knew what was in my mom's heart.",
+      "id" : "fortune-083"
+    },
+    {
+      "english" : "I gave you life, but really, you gave me mine.",
+      "id" : "fortune-084"
+    },
+    {
+      "english" : "Just when you think you know love, something little comes along and reminds you just how big it is.",
+      "id" : "fortune-085"
+    },
+    {
+      "english" : "Everything has changed, and yet, I'm more me than I've ever been.",
+      "id" : "fortune-086"
+    },
+    {
+      "english" : "Wishes are granted in a mother's heart.",
+      "id" : "fortune-087"
+    },
+    {
+      "english" : "It is without a doubt that no one adores their mom more than I adore you.",
+      "id" : "fortune-088"
+    },
+    {
+      "english" : "Mom, you've been my rock. Thank you for showing me your steadfast strength.",
+      "id" : "fortune-089"
+    },
+    {
+      "english" : "Moms are the most beautiful beings in the world.",
+      "id" : "fortune-090"
+    },
+    {
+      "english" : "Great moms like you inspire their children to do, see, and be more.",
+      "id" : "fortune-091"
+    },
+    {
+      "english" : "If you're a mom, you're a superhero. Period.",
+      "id" : "fortune-092"
+    },
+    {
+      "english" : "No matter how much I say I love you, I always love you more than that.",
+      "id" : "fortune-093"
+    },
+    {
+      "english" : "Moms are the people who know us the best and love us the most.",
+      "id" : "fortune-094"
+    },
+    {
+      "english" : "Sometimes the strength of motherhood is greater than natural laws.",
+      "id" : "fortune-095"
+    },
+    {
+      "english" : "Being a mom can be tough, but always remember in the eyes of your child, no one does it better than you.",
+      "id" : "fortune-096"
+    },
+    {
+      "english" : "It takes a strong woman to be a mom and an even stronger one to be MY mom.",
+      "id" : "fortune-097"
+    },
+    {
+      "english" : "A mother and daughter know each other's hearts like their own.",
+      "id" : "fortune-098"
+    },
+    {
+      "english" : "Watching you has taught me more about about being an independent woman than you'll ever know.",
+      "id" : "fortune-099"
+    },
+    {
+      "english" : "You have my whole heart for my whole life.",
+      "id" : "fortune-100"
+    },
+    {
+      "english" : "As is the mother, so is her daughter.",
+      "id" : "fortune-101"
+    },
+    {
+      "english" : "An aunt is always there for all the times when you need a second mom.",
+      "id" : "fortune-102"
+    },
+    {
+      "english" : "An aunt grows more treasured as time goes by.",
+      "id" : "fortune-103"
+    },
+    {
+      "english" : "Only an aunt can give hugs like a mother, can keep secrets like a sister and share love like a friend.",
+      "id" : "fortune-104"
+    },
+    {
+      "english" : "A grandmother is a little bit parent, a little bit teacher, and a little bit best friend.",
+      "id" : "fortune-105"
+    },
+    {
+      "english" : "There’s no place like home except Grandma’s.",
+      "id" : "fortune-106"
+    },
+    {
+      "english" : "Grandmas are short on criticism and long on love.",
+      "id" : "fortune-107"
+    },
+    {
+      "english" : "Everything I am, you helped me to be.",
+      "id" : "fortune-108"
+    },
+    {
+      "english" : "It’s such a grand thing to be a mother of a mother. That’s why the world calls her grandmother.",
+      "id" : "fortune-109"
+    },
+    {
+      "english" : "It’s not what we have in life, but who we have in our life that matters.",
+      "id" : "fortune-110"
+    },
+    {
+      "english" : "You are far more precious than jewels.",
+      "id" : "fortune-111"
+    },
+    {
+      "english" : "Mother is a verb. It’s something you do. Not just who you are.",
+      "id" : "fortune-112"
+    },
+    {
+      "english" : "Acceptance, tolerance, bravery, compassion. These are the things my mom taught me.",
+      "id" : "fortune-113"
+    },
+    {
+      "english" : "Of all the rights of women, the greatest is to be a mother.",
+      "id" : "fortune-114"
+    },
+    {
+      "english" : "A mother’s love is more beautiful than any fresh flower.",
+      "id" : "fortune-115"
+    },
+    {
+      "english" : "A mother is the one who fills your heart in the first place.",
+      "id" : "fortune-116"
+    },
+    {
+      "english" : "A mother’s arms are more comforting than anyone else’s.",
+      "id" : "fortune-117"
+    },
+    {
+      "english" : "There is no influence so powerful as that of the mother.",
+      "id" : "fortune-118"
+    },
+    {
+      "english" : "Mother: the most beautiful word on the lips of mankind.",
+      "id" : "fortune-119"
+    },
+    {
+      "english" : "A mother is always the beginning. She is how things begin.",
+      "id" : "fortune-120"
+    },
+    {
+      "english" : "There is no role in life that is more essential than that of motherhood.",
+      "id" : "fortune-121"
+    },
+    {
+      "english" : "The influence of a mother in the lives of her children is beyond calculation.",
+      "id" : "fortune-122"
+    },
+    {
+      "english" : "A mother is your first friend, your best friend, your forever friend.",
+      "id" : "fortune-123"
+    },
+    {
+      "english" : "I love you, mom.",
+      "id" : "fortune-124"
+    },
+    {
+      "english" : "No matter your age, you will always need your mom.",
+      "id" : "fortune-125"
+    },
+    {
+      "english" : "I’ll love you forever, I’ll like you for always, as long as I’m living my mommy you’ll be.",
+      "id" : "fortune-126"
+    },
+    {
+      "english" : "All that I am, or ever hope to be, I owe to my angel mother.",
+      "id" : "fortune-127"
+    },
+    {
+      "english" : "She taught me that fear is not an option.",
+      "id" : "fortune-128"
+    },
+    {
+      "english" : "To the world, you are a mother. To our family, you are the world.",
+      "id" : "fortune-129"
+    },
+    {
+      "english" : "Mom is a title above queen.",
+      "id" : "fortune-130"
+    },
+    {
+      "english" : "Like mother, like daughter. I wouldn’t want to be like anyone else.",
+      "id" : "fortune-131"
+    },
+    {
+      "english" : "When life gets hard and you feel all alone, remember you mean the world to somebody, and that somebody calls you mom.",
+      "id" : "fortune-132"
+    },
+    {
+      "english" : "First my mother, forever my friend.",
+      "id" : "fortune-133"
+    },
+    {
+      "english" : "A mother is a daughter’s best friend.",
+      "id" : "fortune-134"
+    },
+    {
+      "english" : "I am a strong woman because a strong woman raised me.",
+      "id" : "fortune-135"
+    },
+    {
+      "english" : "To the world you may be one person. But to one person you are the world.",
+      "id" : "fortune-136"
+    },
+    {
+      "english" : "Life doesn’t come with a manual. It comes with a mother.",
+      "id" : "fortune-137"
+    },
+    {
+      "english" : "Mother and daughter never truly part, maybe in distance but never in heart.",
+      "id" : "fortune-138"
+    },
+    {
+      "english" : "Make happiness a priority, and be gentle with yourself in the process.",
+      "id" : "fortune-139"
+    },
+    {
+      "english" : "As time goes on, that really bad time is a little less bad.",
+      "id" : "fortune-140"
+    },
+    {
+      "english" : "If it excites you and scares you at the same time, it probably means you should do it.",
+      "id" : "fortune-141"
+    },
+    {
+      "english" : "If you have to put on some sparkles and high heels to make it a good day, werk it, girl!",
+      "id" : "fortune-142"
+    },
+    {
+      "english" : "Keep calm and sparkle on.",
+      "id" : "fortune-143"
+    },
+    {
+      "english" : "Try to find something that makes you smile today.",
+      "id" : "fortune-144"
+    },
+    {
+      "english" : "What makes you different or weird, that is your strength.",
+      "id" : "fortune-145"
+    },
+    {
+      "english" : "Your life doesn't get better by chance it gets better by change.",
+      "id" : "fortune-146"
+    },
+    {
+      "english" : "Today is the opportunity to build the tomorrow you want.",
+      "id" : "fortune-147"
+    },
+    {
+      "english" : "Take the first step in faith. You don't Need to see the whole staircase just the first step.",
+      "id" : "fortune-148"
+    },
+    {
+      "english" : "A fresh start is not a new place it is a new mindset.",
+      "id" : "fortune-149"
+    },
+    {
+      "english" : "My journey placed me where I am today, and I wouldn't change a single thing.",
+      "id" : "fortune-150"
+    },
+    {
+      "english" : "When someone leaves, its because someone else is about to arrive",
+      "id" : "fortune-151"
+    },
+    {
+      "english" : "Never underestimate the power you have to take your life in a new direction.",
+      "id" : "fortune-152"
+    },
+    {
+      "english" : "Life is not about hoping and wishing, it's about doing and becoming.",
+      "id" : "fortune-153"
+    },
+    {
+      "english" : "Be yourself, everyone else is already taken.",
+      "id" : "fortune-154"
+    },
+    {
+      "english" : "The things you're passionate about aren't random, they're your calling.",
+      "id" : "fortune-155"
+    },
+    {
+      "english" : "When you come to the end of your rope, tie a knot and hold on.",
+      "id" : "fortune-156"
+    },
+    {
+      "english" : "Love is flower-like. Friendship is like a sheltering tree.",
+      "id" : "fortune-157"
+    },
+    {
+      "english" : "You are loved.",
+      "id" : "fortune-158"
+    },
+    {
+      "english" : "I may not be where I want to be, but I’m thankful for not being where I was.",
+      "id" : "fortune-159"
+    },
+    {
+      "english" : "There are things in life that you can't control, and aren't supposed to.",
+      "id" : "fortune-160"
+    },
+    {
+      "english" : "I’d never lived before your love.",
+      "id" : "fortune-161"
+    },
+    {
+      "english" : "With you, I am home.",
+      "id" : "fortune-162"
+    },
+    {
+      "english" : "You make it look easy. The fact is it's really hard and you do it anyway.",
+      "id" : "fortune-163"
+    },
+    {
+      "english" : "Distractions will look like opportunities when you don't know where you are going.",
+      "id" : "fortune-164"
+    },
+    {
+      "english" : "Two things you will never have to chase: True friends and true love.",
+      "id" : "fortune-165"
+    },
+    {
+      "english" : "God will never give you anything you can't handle, so don't stress.",
+      "id" : "fortune-166"
+    },
+    {
+      "english" : "In order to have faith in your own path, you do not need to prove that someone else's path is wrong.",
+      "id" : "fortune-167"
+    },
+    {
+      "english" : "Faith does not eliminate questions. But faith knows where to take them.",
+      "id" : "fortune-168"
+    },
+    {
+      "english" : "To one who has faith, no explanation is necessary. To one without faith, no explanation is possible.",
+      "id" : "fortune-169"
+    },
+    {
+      "english" : "You can't know, you can only believe. Or not.",
+      "id" : "fortune-170"
+    },
+    {
+      "english" : "Faith consists in believing what reason cannot.",
+      "id" : "fortune-171"
+    },
+    {
+      "english" : "Faith is walking face-first and full-speed into the dark.",
+      "id" : "fortune-172"
+    },
+    {
+      "english" : "Love meant jumping off a cliff and trusting that a certain person would be there to catch you at the bottom.",
+      "id" : "fortune-173"
+    },
+    {
+      "english" : "Some things have to be believed to be seen.",
+      "id" : "fortune-174"
+    },
+    {
+      "english" : "Faith is about doing. You are how you act, not just how you believe.",
+      "id" : "fortune-175"
+    },
+    {
+      "english" : "Follow your bliss and the universe will open doors for you where there were only walls.",
+      "id" : "fortune-176"
+    },
+    {
+      "english" : "Faith means believing the unbelievable.",
+      "id" : "fortune-177"
+    },
+    {
+      "english" : "I don't think that we're meant to understand it all the time. I think that sometimes we just have to have faith.",
+      "id" : "fortune-178"
+    },
+    {
+      "english" : "Believe something and the universe is on its way to being changed.",
+      "id" : "fortune-179"
+    },
+    {
+      "english" : "Believe in love that is being stored up for you like an inheritance, and have faith that in this love there is strength.",
+      "id" : "fortune-180"
+    },
+    {
+      "english" : "No one is you and that is your superpower.",
+      "id" : "fortune-181"
+    },
+    {
+      "english" : "Stop trying to calm the storm. Calm yourself, the storm will pass.",
+      "id" : "fortune-182"
+    },
+    {
+      "english" : "I raise up my voice-not so I can shout, but so that those without a voice can be heard.",
+      "id" : "fortune-183"
+    },
+    {
+      "english" : "No one can make you feel inferior without your consent.",
+      "id" : "fortune-184"
+    },
+    {
+      "english" : "I feel like I'm too busy writing history to read it.",
+      "id" : "fortune-185"
+    },
+    {
+      "english" : "Normal is nothing more than a cycle on a washing machine.",
+      "id" : "fortune-186"
+    },
+    {
+      "english" : "You have to believe in your heart what you know to be true about yourself. And let that be that.",
+      "id" : "fortune-187"
+    },
+    {
+      "english" : "Our words have power, but our actions shape our lives.",
+      "id" : "fortune-188"
+    },
+    {
+      "english" : "I'm a big believer in accepting yourself and not really worrying about it.",
+      "id" : "fortune-189"
+    },
+    {
+      "english" : "In life there is no real safety except for self-belief.",
+      "id" : "fortune-190"
+    },
+    {
+      "english" : "My courage always rises at every attempt to intimidate me.",
+      "id" : "fortune-191"
+    },
+    {
+      "english" : "Love yourself first and then everything falls into line.",
+      "id" : "fortune-192"
+    },
+    {
+      "english" : "If not me, who? If not now, when?",
+      "id" : "fortune-193"
+    },
+    {
+      "english" : "Perfect is boring. Human is beautiful.",
+      "id" : "fortune-194"
+    },
+    {
+      "english" : "You are imperfect, you are wired for struggle, but you are worthy of love and belonging.",
+      "id" : "fortune-195"
+    },
+    {
+      "english" : "To love ourselves and support each other in the process of becoming real is perhaps the greatest single act of daring greatly.",
+      "id" : "fortune-196"
+    },
+    {
+      "english" : "Authenticity is the daily practice of letting go of who we think we're supposed to be and embracing who we are.",
+      "id" : "fortune-197"
+    },
+    {
+      "english" : "Meeting you was fate, becoming your friend was a choice, but falling in love with you I had no control over.",
+      "id" : "fortune-198"
+    },
+    {
+      "english" : "You claim a special place in my heart, one I'll carry with me forever and that no one can ever replace.",
+      "id" : "fortune-199"
+    },
+    {
+      "english" : "I love you forever, not maybe. You are my one true love.",
+      "id" : "fortune-200"
+    },
+    {
+      "english" : "Love isn't finding a perfect person. It's seeing an imperfect person perfectly.",
+      "id" : "fortune-201"
+    },
+    {
+      "english" : "I'd choose you; in a hundred lifetimes, in a hundred worlds, in any version of reality, I'd find you and I'd choose you.",
+      "id" : "fortune-202"
+    },
+    {
+      "english" : "I love you because the entire universe conspired to help me find you.",
+      "id" : "fortune-203"
+    },
+    {
+      "english" : "In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine.",
+      "id" : "fortune-204"
+    },
+    {
+      "english" : "Whatever our souls are made of, his and mine are the same.",
+      "id" : "fortune-205"
+    },
+    {
+      "english" : "We loved with a love that was more than love.",
+      "id" : "fortune-206"
+    },
+    {
+      "english" : "All that you are is all that I'll ever need.",
+      "id" : "fortune-207"
+    },
+    {
+      "english" : "Real love stories never have endings.",
+      "id" : "fortune-208"
+    },
+    {
+      "english" : "The emotion that can break your heart is sometimes the very one that heals it...",
+      "id" : "fortune-209"
+    },
+    {
+      "english" : "What we learn with pleasure we never forget.",
+      "id" : "fortune-210"
+    },
+    {
+      "english" : "Do not follow where the path may lead. Go, instead, where there is no path and leave a trail.",
+      "id" : "fortune-211"
+    },
+    {
+      "english" : "Happiness is not something ready made. It comes from your own actions.",
+      "id" : "fortune-212"
+    },
+    {
+      "english" : "Bravery is to stand up for what you believe in.",
+      "id" : "fortune-213"
+    },
+    {
+      "english" : "I am a better person when I let myself have time for romance and love.",
+      "id" : "fortune-214"
+    },
+    {
+      "english" : "Being a mother is the best gift in the world.",
+      "id" : "fortune-215"
+    },
+    {
+      "english" : "Don't be afraid to set boundaries for your own sanity.",
+      "id" : "fortune-216"
+    },
+    {
+      "english" : "Adjust, chill out, and be happy.",
+      "id" : "fortune-217"
+    },
+    {
+      "english" : "And so we begin.",
+      "id" : "fortune-218"
+    },
+    {
+      "english" : "Mommy guilt is invented nonsense.",
+      "id" : "fortune-219"
+    },
+    {
+      "english" : "The most important thing you wear is your personality.",
+      "id" : "fortune-220"
+    },
+    {
+      "english" : "If I consider myself comfortable in something, then that's not exactly where I want to be.",
+      "id" : "fortune-221"
+    },
+    {
+      "english" : "Anything that you do, any accomplishment that you make, you have to work for.",
+      "id" : "fortune-222"
+    },
+    {
+      "english" : "Let go and let the flow.",
+      "id" : "fortune-223"
+    },
+    {
+      "english" : "I take all of my life lessons, which some people might call 'mistakes,' and apply them to my future so I keep growing.",
+      "id" : "fortune-224"
+    },
+    {
+      "english" : "You will not determine my story. I will.",
+      "id" : "fortune-225"
+    },
+    {
+      "english" : "Living in the constant unexpected.",
+      "id" : "fortune-226"
+    },
+    {
+      "english" : "Positive mindset always.",
+      "id" : "fortune-227"
+    },
+    {
+      "english" : "Being a mom is hands-down the best role I've landed.",
+      "id" : "fortune-228"
+    },
+    {
+      "english" : "Make more time for things that matter.",
+      "id" : "fortune-229"
+    },
+    {
+      "english" : "The less I seek my source for some definitive, the closer I am to fine.",
+      "id" : "fortune-230"
+    },
+    {
+      "english" : "I saw that you were perfect, so I loved you. Then I saw that you were not perfect and loved you even more.",
+      "id" : "fortune-231"
+    },
+    {
+      "english" : "In case you ever foolishly forget: I am never not thinking of you.",
+      "id" : "fortune-232"
+    },
+    {
+      "english" : "Forever is a long time, but I wouldn't mind spending it by your side.",
+      "id" : "fortune-233"
+    },
+    {
+      "english" : "When you are content to be simply yourself and don't compare or compete, everyone will respect you.",
+      "id" : "fortune-234"
+    },
+    {
+      "english" : "My life is better with every year of living it.",
+      "id" : "fortune-235"
+    },
+    {
+      "english" : "A girl should be two things: who and what she wants.",
+      "id" : "fortune-236"
+    },
+    {
+      "english" : "Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.",
+      "id" : "fortune-237"
+    },
+    {
+      "english" : "Today you are you! That is truer than true! There is no one alive who is you-er than you!",
+      "id" : "fortune-238"
+    },
+    {
+      "english" : "A party without cake is just a meeting.",
+      "id" : "fortune-239"
+    },
+    {
+      "english" : "The more you praise and celebrate your life, the more there is in life to celebrate.",
+      "id" : "fortune-240"
+    },
+    {
+      "english" : "Life should not only be lived, it should be celebrated.",
+      "id" : "fortune-241"
+    },
+    {
+      "english" : "Whatever you do, or dream you can, begin it. Boldness has genius and power and magic in it.",
+      "id" : "fortune-242"
+    },
+    {
+      "english" : "The past is your lesson, the present is your gift, and the future is your motivation.",
+      "id" : "fortune-243"
+    },
+    {
+      "english" : "Inhale the future, exhale the past.",
+      "id" : "fortune-244"
+    },
+    {
+      "english" : "Look forward, not behind. Your best days are still right in front of you.",
+      "id" : "fortune-245"
+    },
+    {
+      "english" : "Do something today that your future will thank you for.",
+      "id" : "fortune-246"
+    },
+    {
+      "english" : "You're never too old to set another goal or to dream a new dream.",
+      "id" : "fortune-247"
+    },
+    {
+      "english" : "There are far better things ahead than any we leave behind.",
+      "id" : "fortune-248"
+    },
+    {
+      "english" : "If I could save time in a bottle the first thing that I'd like to do is save every day.",
+      "id" : "fortune-249"
+    },
+    {
+      "english" : "A birth-date is a reminder to celebrate the life as well as to update the life.",
+      "id" : "fortune-250"
+    },
+    {
+      "english" : "Every year on your birthday you get a chance to start new.",
+      "id" : "fortune-251"
+    },
+    {
+      "english" : "There are two great days in a person's life- the day we are born and the day we discover why.",
+      "id" : "fortune-252"
+    },
+    {
+      "english" : "I still remember how happy I was when I first laid eyes on you. I've been proud ever since. Happy Birthday.",
+      "id" : "fortune-253"
+    },
+    {
+      "english" : "In the end, it's not the years in your life that count. It's the life in your years.",
+      "id" : "fortune-254"
+    },
+    {
+      "english" : "Today is your day. Dance with fairies, ride with unicorns, swim with mermaids and chase rainbows.",
+      "id" : "fortune-255"
+    },
+    {
+      "english" : "You are safe. You are kind. You are good. You are not broken. Your light matters.",
+      "id" : "fortune-256"
+    },
+    {
+      "english" : "If you have to MAKE good, DO good.",
+      "id" : "fortune-257"
+    },
+    {
+      "english" : "Trust you're stardust. Trust your stardust.",
+      "id" : "fortune-258"
+    },
+    {
+      "english" : "In the future, there will be no female leaders. There will just be leaders.",
+      "id" : "fortune-259"
+    },
+    {
+      "english" : "Be the heroine of your life, not the victim.",
+      "id" : "fortune-260"
+    },
+    {
+      "english" : "I didn't get there by wishing for it or hoping for it, but by working for it.",
+      "id" : "fortune-261"
+    },
+    {
+      "english" : "The question isn't who is going to let me, it's who is going to stop me.",
+      "id" : "fortune-262"
+    },
+    {
+      "english" : "Buckle up, and know it's going to be a tremendous amount of work, but embrace it.",
+      "id" : "fortune-263"
+    },
+    {
+      "english" : "If you find someone you love in your life, then hang on to that love.",
+      "id" : "fortune-264"
+    },
+    {
+      "english" : "The challenge is not to be perfect. It's to be whole.",
+      "id" : "fortune-265"
+    },
+    {
+      "english" : "In order to be irreplaceable one must always be different.",
+      "id" : "fortune-266"
+    },
+    {
+      "english" : "What you do makes a difference, and you have to decide what kind of a difference you want to make.",
+      "id" : "fortune-267"
+    },
+    {
+      "english" : "It took me quite a while to develop a voice, and now that I have it, I am not going to be silent.",
+      "id" : "fortune-268"
+    },
+    {
+      "english" : "If you don't like the road you're walking, start paving another one.",
+      "id" : "fortune-269"
+    },
+    {
+      "english" : "When the whole world is silent, even one voice becomes powerful.",
+      "id" : "fortune-270"
+    },
+    {
+      "english" : "I don't want other people to decide what I am. I want to decide that for myself.",
+      "id" : "fortune-271"
+    },
+    {
+      "english" : "The most beautiful thing you can wear is confidence.",
+      "id" : "fortune-272"
+    },
+    {
+      "english" : "I'm not going to become anybody I don't want to become.",
+      "id" : "fortune-273"
+    },
+    {
+      "english" : "Choose love over judgement and watch your life improve immediately.",
+      "id" : "fortune-274"
+    },
+    {
+      "english" : "Stop comparing yourself to others.",
+      "id" : "fortune-275"
+    },
+    {
+      "english" : "Owning up to your vulnerabilities is a form of strength.",
+      "id" : "fortune-276"
+    },
+    {
+      "english" : "I'm ballsy. I have guts. I'm not afraid of anyone. I think that's what makes me powerful.",
+      "id" : "fortune-277"
+    },
+    {
+      "english" : "When in doubt, slay.",
+      "id" : "fortune-278"
+    },
+    {
+      "english" : "When you put love out into the world it travels, and it can touch people.",
+      "id" : "fortune-279"
+    },
+    {
+      "english" : "If you got it, flaunt it. If you don't got it, flaunt it.",
+      "id" : "fortune-280"
+    },
+    {
+      "english" : "Embrace the glorious mess that you are.",
+      "id" : "fortune-281"
+    },
+    {
+      "english" : "Happy people are beautiful.",
+      "id" : "fortune-282"
+    },
+    {
+      "english" : "Happiness is not something that just comes to you. It's an active process.",
+      "id" : "fortune-283"
+    },
+    {
+      "english" : "I know my worth. I embrace my power. I say if I'm beautiful.",
+      "id" : "fortune-284"
+    },
+    {
+      "english" : "Don't you ever let a soul in the world tell you that you can't be exactly who you are.",
+      "id" : "fortune-285"
+    },
+    {
+      "english" : "You define beauty yourself. Society doesn't define your beauty.",
+      "id" : "fortune-286"
+    },
+    {
+      "english" : "You have to be unique and different and shine in your own way.",
+      "id" : "fortune-287"
+    },
+    {
+      "english" : "You have to be where you are to get where you need to go.",
+      "id" : "fortune-288"
+    },
+    {
+      "english" : "There is no such thing as ugly.",
+      "id" : "fortune-289"
+    },
+    {
+      "english" : "Let's practice motivation and love, not discrimination and hate.",
+      "id" : "fortune-290"
+    },
+    {
+      "english" : "The most courageous act is still to think for yourself. Aloud.",
+      "id" : "fortune-291"
+    },
+    {
+      "english" : "Always be a first-rate version of yourself instead of a second-rate version of somebody else.",
+      "id" : "fortune-292"
+    },
+    {
+      "english" : "Sometimes you just have to put on lipstick and pretend to be psyched.",
+      "id" : "fortune-293"
+    },
+    {
+      "english" : "There are no rules when it comes to love.",
+      "id" : "fortune-294"
+    },
+    {
+      "english" : "Make bold choices and make mistakes. Its all those things that add up to the person you become.",
+      "id" : "fortune-295"
+    },
+    {
+      "english" : "The formula of happiness and success is just being actually yourself in the most vivid way you possibly can.",
+      "id" : "fortune-296"
+    },
+    {
+      "english" : "I only know I want to be wonderful.",
+      "id" : "fortune-297"
+    },
+    {
+      "english" : "Sometimes good things fall apart so better things can fall together.",
+      "id" : "fortune-298"
+    },
+    {
+      "english" : "We come from homes far from perfect, so you end up almost parent and sibling to your friends-- your own chosen family.",
+      "id" : "fortune-299"
+    },
+    {
+      "english" : "Wanting to be someone else is a waste of the person you are.",
+      "id" : "fortune-300"
+    },
+    {
+      "english" : "The roughest roads often lead to the top.",
+      "id" : "fortune-301"
+    },
+    {
+      "english" : "Love is like nothing else on this earth, but only when it is shared with someone wonderful like you.",
+      "id" : "fortune-302"
+    },
+    {
+      "english" : "Imagination creates reality.",
+      "id" : "fortune-303"
+    },
+    {
+      "english" : "Without deviation from the norm, progress is not possible.",
+      "id" : "fortune-304"
+    },
+    {
+      "english" : "If everything was perfect, you would never learn and you would never grow.",
+      "id" : "fortune-305"
+    },
+    {
+      "english" : "You are not a problem that needs solving.",
+      "id" : "fortune-306"
+    },
+    {
+      "english" : "If you are not living this moment, you are not really living.",
+      "id" : "fortune-307"
+    },
+    {
+      "english" : "I'm grateful for always this moment, the now, no matter what form it takes.",
+      "id" : "fortune-308"
+    },
+    {
+      "english" : "You can only lose something that you have, but you cannot lose something that you are.",
+      "id" : "fortune-309"
+    },
+    {
+      "english" : "Whatever the present moment contains, accept it as if you had chosen it.",
+      "id" : "fortune-310"
+    },
+    {
+      "english" : "To love is to recognize yourself in another.",
+      "id" : "fortune-311"
+    },
+    {
+      "english" : "Life will give you whatever experience is most helpful for the evolution of your consciousness.",
+      "id" : "fortune-312"
+    },
+    {
+      "english" : "Stop letting your head talk your heart out of it.",
+      "id" : "fortune-313"
+    },
+    {
+      "english" : "You are beautiful and worthy of good things, and if you don't believe that, nobody will.",
+      "id" : "fortune-314"
+    },
+    {
+      "english" : "Embracing chaos might be the journey we take to finding peace.",
+      "id" : "fortune-315"
+    },
+    {
+      "english" : "Never break a promise to yourself.",
+      "id" : "fortune-316"
+    },
+    {
+      "english" : "When it comes to your dreams, no is not an answer.",
+      "id" : "fortune-317"
+    },
+    {
+      "english" : "Nobody gets to tell you how big your dreams can be.",
+      "id" : "fortune-318"
+    },
+    {
+      "english" : "Who you are is defined by the next decision you make, not the last one.",
+      "id" : "fortune-319"
+    },
+    {
+      "english" : "It’s not about the goal or the dream you have. It’s about who you become on your way to that goal.",
+      "id" : "fortune-320"
+    },
+    {
+      "english" : "You, and only you, are ultimately responsible for who you become and how happy you are.",
+      "id" : "fortune-321"
+    },
+    {
+      "english" : "Bravery shows up in everyday life when people have the courage to live their truth, their vision and their dreams.",
+      "id" : "fortune-322"
+    },
+    {
+      "english" : "We can’t become what we need to be by remaining what we are.",
+      "id" : "fortune-323"
+    },
+    {
+      "english" : "It doesn’t matter who you are, where you come from. The ability to triumph begins with you, always.",
+      "id" : "fortune-324"
+    },
+    {
+      "english" : "So go ahead. Fall down. The world looks different from the ground.",
+      "id" : "fortune-325"
+    },
+    {
+      "english" : "Gratitude turns what we have into enough.",
+      "id" : "fortune-326"
+    },
+    {
+      "english" : "I am one of the happiest gals you know because I choose it every single day. I choose to practice gratitude.",
+      "id" : "fortune-327"
+    },
+    {
+      "english" : "I have never met an interesting person who had an easy life.",
+      "id" : "fortune-328"
+    },
+    {
+      "english" : "Ask. Trust. Give thanks.",
+      "id" : "fortune-329"
+    },
+    {
+      "english" : "Life is a web of intersections and choices. Your first choice is to recognize an intersection. Your second choice is to be grateful for it.",
+      "id" : "fortune-330"
+    },
+    {
+      "english" : "There is an inverse relationship between expectations and gratitude: The more expectations you have, the less gratitude you will have.",
+      "id" : "fortune-331"
+    },
+    {
+      "english" : "I may not be where I want to be but I’m thankful for not being where I used to be.",
+      "id" : "fortune-332"
+    },
+    {
+      "english" : "Thankfulness creates gratitude which generates contentment that causes peace.",
+      "id" : "fortune-333"
+    },
+    {
+      "english" : "I don't have to chase extraordinary moments to find happiness. It's right in front of me if I'm paying attention and practicing gratitude.",
+      "id" : "fortune-334"
+    },
+    {
+      "english" : "Appreciation is a wonderful thing. It makes what is excellent in others belong to us as well.",
+      "id" : "fortune-335"
+    },
+    {
+      "english" : "Be thankful for everything that happens in your life; it’s all an experience.",
+      "id" : "fortune-336"
+    },
+    {
+      "english" : "Be slow to fall into friendship, but when you are in, continue firm and constant.",
+      "id" : "fortune-337"
+    },
+    {
+      "english" : "When you stop expecting people to be perfect, you can like them for who they are.",
+      "id" : "fortune-338"
+    },
+    {
+      "english" : "There’s not a word yet for old friends who’ve just met.",
+      "id" : "fortune-339"
+    },
+    {
+      "english" : "Your victory is right around the corner. Don't give up.",
+      "id" : "fortune-340"
+    },
+    {
+      "english" : "Whatever happens around you, don't take it personally... Nothing other people do is because of you. It's because of themselves.",
+      "id" : "fortune-341"
+    },
+    {
+      "english" : "Grace means that all of your mistakes now serve a purpose instead of serving shame.",
+      "id" : "fortune-342"
+    },
+    {
+      "english" : "What separates privilege from entitlement is gratitude.",
+      "id" : "fortune-343"
+    },
+    {
+      "english" : "You only live once, but if you do it right, once is enough.",
+      "id" : "fortune-344"
+    },
+    {
+      "english" : "When it comes to life, the critical thing is whether you take things for granted or take them with gratitude.",
+      "id" : "fortune-345"
+    },
+    {
+      "english" : "Don't just count your years. Make your years count.",
+      "id" : "fortune-346"
+    },
+    {
+      "english" : "Forget the past. Look forward to the future. For the best things are yet to come.",
+      "id" : "fortune-347"
+    },
+    {
+      "english" : "Another birthday means your life journey is incomplete. May your path be paved with success and guided by love.",
+      "id" : "fortune-348"
+    },
+    {
+      "english" : "Someone I love was born today.",
+      "id" : "fortune-349"
+    },
+    {
+      "english" : "I still remember how happy I was when I first laid eyes on you. I’ve been proud ever since.",
+      "id" : "fortune-350"
+    },
+    {
+      "english" : "Today marks one small milestone in the beautiful journey that is your life.",
+      "id" : "fortune-351"
+    },
+    {
+      "english" : "Lead with love and kindness.",
+      "id" : "fortune-352"
+    },
+    {
+      "english" : "I made a conscious decision to live my life the best way I could.",
+      "id" : "fortune-353"
+    },
+    {
+      "english" : "You attract what you are ready for.",
+      "id" : "fortune-354"
+    },
+    {
+      "english" : "The story of love is hello and goodbye. Until we meet again.",
+      "id" : "fortune-355"
+    },
+    {
+      "english" : "How lucky I am to have something that makes saying goodbye so hard.",
+      "id" : "fortune-356"
+    },
+    {
+      "english" : "There is no death. Only a change of worlds.",
+      "id" : "fortune-357"
+    },
+    {
+      "english" : "The pain I feel now is the happiness I had before. That’s the deal.",
+      "id" : "fortune-358"
+    },
+    {
+      "english" : "A human life is a story told by God.",
+      "id" : "fortune-359"
+    },
+    {
+      "english" : "The world is full of suffering. It is also full of overcoming.",
+      "id" : "fortune-360"
+    },
+    {
+      "english" : "When you lose someone you love, you gain an angel you know.",
+      "id" : "fortune-361"
+    },
+    {
+      "english" : "What we have once enjoyed we can never lose. All that we love deeply becomes a part of us.",
+      "id" : "fortune-362"
+    },
+    {
+      "english" : "Do not think of me as gone. I am with you still in each new dawn.",
+      "id" : "fortune-363"
+    },
+    {
+      "english" : "The object is not to forget, but to remember to go on.",
+      "id" : "fortune-364"
+    },
+    {
+      "english" : "You can’t truly heal from a loss until you allow yourself to really feel the loss.",
+      "id" : "fortune-365"
+    },
+    {
+      "english" : "There are no goodbyes for us. Wherever you are, you will always be in my heart.",
+      "id" : "fortune-366"
+    }
+  ],
+  "version" : 4
+}

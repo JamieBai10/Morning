@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>CFBundleExecutable</key>
+  <string>Morning</string>
+  <key>CFBundleIdentifier</key>
+  <string>com.jamie.morning</string>
+  <key>CFBundleDisplayName</key>
+  <string>Morning</string>
+  <key>CFBundleIconFile</key>
+  <string>AppIcon</string>
+  <key>CFBundleName</key>
+  <string>Morning</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleShortVersionString</key>
+  <string>0.1.0</string>
+  <key>CFBundleVersion</key>
+  <string>1</string>
+  <key>LSApplicationCategoryType</key>
+  <string>public.app-category.productivity</string>
+  <key>LSMinimumSystemVersion</key>
+  <string>14.0</string>
+  <key>NSPrincipalClass</key>
+  <string>NSApplication</string>
+  <key>NSAppleEventsUsageDescription</key>
+  <string>Morning saves a Quick Capture as a new note in Apple Notes when you choose Apple Notes as the destination.</string>
+  <key>NSCalendarsUsageDescription</key>
+  <string>Morning reads yesterday's calendar events to build your morning recap.</string>
+  <key>NSCalendarsFullAccessUsageDescription</key>
+  <string>Morning reads yesterday's calendar events to build your morning recap.</string>
+  <key>NSRemindersUsageDescription</key>
+  <string>Morning reads completed reminders to build your morning recap.</string>
+  <key>NSRemindersFullAccessUsageDescription</key>
+  <string>Morning reads completed reminders to build your morning recap.</string>
+</dict>
+</plist>
