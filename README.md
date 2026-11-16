@@ -2,6 +2,12 @@
 
 Morning 是一款 macOS 桌面晨报应用：一个可移动的悬浮文件夹，展开后可以管理当天任务、回顾昨日和记录灵感。
 
+## 下载 Morning
+
+**[下载 Morning 0.1.0（macOS 安装包）](https://github.com/JamieBai10/Morning/raw/refs/tags/v0.1.0/Morning-macOS.zip)** ｜ [查看版本说明](https://github.com/JamieBai10/Morning/releases/tag/v0.1.0)
+
+适用于 Apple 芯片 Mac，最低要求 macOS 14。App 尚未经 Apple 公证，首次打开时请按安装包里的指引操作。
+
 ## 功能
 
 - **Today**：记录当天最多三件事，设置时间并标记完成。清空任务文字并点击空白处可删除任务。
@@ -12,9 +18,9 @@ Morning 是一款 macOS 桌面晨报应用：一个可移动的悬浮文件夹�
 
 ## 系统与安装
 
-测试包面向 Apple 芯片 Mac，项目最低系统版本设置为 macOS 14；其他系统版本和 Intel Mac 需要进一步验证。普通用户请使用项目提供的应用压缩包，详细步骤见其中的 `Read-Me-First.txt` 和 `Feishu-Calendar-Guide.txt`。
+安装包面向 Apple 芯片 Mac，项目最低系统版本设置为 macOS 14；其他系统版本和 Intel Mac 需要进一步验证。普通用户请使用项目提供的应用压缩包，详细步骤见其中的 `Read-Me-First.txt` 和 `Feishu-Calendar-Guide.txt`。
 
-当前测试包未经 Apple 公证，首次打开可能需要到 macOS「系统设置 → 隐私与安全性」选择“仍要打开”。
+当前安装包未经 Apple 公证，首次打开可能需要到 macOS「系统设置 → 隐私与安全性」选择“仍要打开”。
 
 ## 开发和构建
 
