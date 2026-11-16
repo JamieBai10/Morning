@@ -18,7 +18,7 @@ Morning 是一款 macOS 桌面晨报应用：一个可移动的悬浮文件夹�
 
 ## 系统与安装
 
-安装包面向 Apple 芯片 Mac，项目最低系统版本设置为 macOS 14；其他系统版本和 Intel Mac 需要进一步验证。普通用户请使用项目提供的应用压缩包，详细步骤见其中的 `Read-Me-First.txt` 和 `Feishu-Calendar-Guide.txt`。
+Morning 0.1.0 面向 Apple 芯片 Mac（M 系列），最低系统要求为 macOS 14。Intel Mac 暂不提供支持；macOS 14 等系统版本尚未逐一实机验证。下载上方的应用压缩包，解压后的 `Read-Me-First.txt` 包含安装说明，`Feishu-Calendar-Guide.txt` 包含可选的飞书日历连接指南。
 
 当前安装包未经 Apple 公证，首次打开可能需要到 macOS「系统设置 → 隐私与安全性」选择“仍要打开”。
 
@@ -43,8 +43,9 @@ swift build
 ## 状态与限制
 
 - 飞书 CLI 的安装和授权需要额外操作；飞书共享或订阅日历暂不支持。
-- 目前尚未完成所有 macOS 版本、Intel Mac 和不同权限组合的系统性验证。
-- 用户已在另一台电脑完成测试；其具体系统和芯片配置尚待记录。
+- Morning 已在 macOS 26.7.3 的 Apple 芯片 Mac 上运行，并由用户在另一台 Mac 上完成安装和功能测试；另一台测试机的具体配置尚未记录。
+- 项目最低系统版本设置为 macOS 14，但尚未逐一验证所有支持的 macOS 版本及权限组合；Intel Mac 暂不支持。
+- 用户已成功通过 README 的下载链接获取安装包。
 - 字体、原创图片和幸运饼干文案的使用条件各不相同，请参照下方说明。
 
 ## 贡献和许可
