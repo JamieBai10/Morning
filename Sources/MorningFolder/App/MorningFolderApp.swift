@@ -20,6 +20,17 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         false
     }
 
+    func applicationShouldOpenUntitledFile(_ sender: NSApplication) -> Bool {
+        // The main interface is our AppKit panel. SwiftUI's only scene is
+        // Settings, so allowing an untitled window opens Settings at launch.
+        false
+    }
+
+    func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
+        showMorning()
+        return false
+    }
+
     @MainActor
     private func createPanel() {
         let initialSize = MFMetric.widgetSize(isExpanded: store.isExpanded)
