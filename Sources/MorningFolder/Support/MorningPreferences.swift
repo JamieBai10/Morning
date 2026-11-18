@@ -31,16 +31,36 @@ enum CaptureDestination: String, CaseIterable, Codable, Identifiable {
     }
 }
 
+enum WidgetScale {
+    static let defaultValue = 1.0
+    static let range = 0.5...1.0
+
+    static func normalized(_ value: Double) -> Double {
+        guard value.isFinite else { return defaultValue }
+        return min(max(value, range.lowerBound), range.upperBound)
+    }
+}
+
 @MainActor
 @Observable
 final class MorningPreferences {
     private enum Key {
+        static let widgetScale = "morning.widgetScale"
         static let calendarSources = "morning.calendarSources"
         static let captureDestination = "morning.captureDestination"
         static let obsidianNotePath = "morning.obsidianNotePath"
     }
 
     private let defaults: UserDefaults
+    private var storedWidgetScale: Double
+
+    var widgetScale: Double {
+        get { storedWidgetScale }
+        set {
+            storedWidgetScale = WidgetScale.normalized(newValue)
+            defaults.set(storedWidgetScale, forKey: Key.widgetScale)
+        }
+    }
 
     var enabledCalendarSources: Set<CalendarDataSource> {
         didSet { saveCalendarSources() }
@@ -54,6 +74,8 @@ final class MorningPreferences {
 
     init(defaults: UserDefaults = .standard) {
         self.defaults = defaults
+        let savedScale = (defaults.object(forKey: Key.widgetScale) as? NSNumber)?.doubleValue
+        self.storedWidgetScale = WidgetScale.normalized(savedScale ?? WidgetScale.defaultValue)
 
         let rawSources = defaults.stringArray(forKey: Key.calendarSources) ?? [CalendarDataSource.appleCalendar.rawValue]
         self.enabledCalendarSources = Set(rawSources.compactMap(CalendarDataSource.init(rawValue:)))

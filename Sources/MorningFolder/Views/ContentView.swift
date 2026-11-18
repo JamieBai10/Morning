@@ -3,11 +3,13 @@ import SwiftUI
 
 struct ContentView: View {
     @Bindable var store: MorningStore
+    @Bindable var preferences: MorningPreferences
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @State private var isPeeking = false
 
     var body: some View {
         let widgetSize = MFMetric.widgetSize(isExpanded: store.isExpanded)
+        let scaledSize = MFMetric.widgetSize(isExpanded: store.isExpanded, scale: preferences.widgetScale)
 
         ZStack {
             Color.clear
@@ -37,6 +39,8 @@ struct ContentView: View {
             width: widgetSize.width,
             height: widgetSize.height
         )
+        .scaleEffect(preferences.widgetScale)
+        .frame(width: scaledSize.width, height: scaledSize.height)
         .background(Color.clear)
         .onReceive(Timer.publish(every: 60, on: .main, in: .common).autoconnect()) { _ in
             store.refreshTaskDayIfNeeded()

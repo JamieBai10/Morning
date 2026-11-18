@@ -18,10 +18,12 @@ enum MFMetric {
     static let collapsedWidth: CGFloat = 246
     static let collapsedHeight: CGFloat = 218
 
-    static func widgetSize(isExpanded: Bool) -> CGSize {
-        isExpanded
+    static func widgetSize(isExpanded: Bool, scale: Double = WidgetScale.defaultValue) -> CGSize {
+        let factor = CGFloat(WidgetScale.normalized(scale))
+        let size = isExpanded
             ? CGSize(width: expandedWidth, height: expandedHeight)
             : CGSize(width: collapsedWidth, height: collapsedHeight)
+        return CGSize(width: size.width * factor, height: size.height * factor)
     }
 
     static let cardRadius: CGFloat = 28

@@ -14,6 +14,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         NSApp.setActivationPolicy(.regular)
         createPanel()
         observeExpansionState()
+        observeWidgetScale()
     }
 
     func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
@@ -33,7 +34,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     @MainActor
     private func createPanel() {
-        let initialSize = MFMetric.widgetSize(isExpanded: store.isExpanded)
+        let initialSize = MFMetric.widgetSize(isExpanded: store.isExpanded, scale: preferences.widgetScale)
         let panel = KeyableMorningPanel(
             contentRect: CGRect(origin: .zero, size: initialSize),
             styleMask: [.borderless],
@@ -49,14 +50,16 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         panel.isMovableByWindowBackground = true
         panel.hidesOnDeactivate = false
         panel.ignoresMouseEvents = false
-        panel.level = .floating
+        // Share the normal window layer so other apps can cover Morning.
+        panel.level = .normal
         panel.collectionBehavior = [
             .canJoinAllSpaces,
             .stationary,
             .ignoresCycle,
             .fullScreenAuxiliary
         ]
-        let hostingView = TransparentMorningHostingView(rootView: ContentView(store: store))
+        let hostingView = TransparentMorningHostingView(rootView: ContentView(store: store, preferences: preferences))
+        hostingView.sizingOptions = []
         hostingView.wantsLayer = true
         hostingView.layer?.backgroundColor = NSColor.clear.cgColor
         panel.contentView = hostingView
@@ -68,10 +71,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     @MainActor
-    private func resizePanel(animated: Bool) {
+    private func resizePanel(animated: Bool, activate: Bool = true) {
         guard let panel else { return }
 
-        let targetSize = MFMetric.widgetSize(isExpanded: store.isExpanded)
+        let targetSize = MFMetric.widgetSize(isExpanded: store.isExpanded, scale: preferences.widgetScale)
         let oldFrame = panel.frame
         let center = didPlaceInitialPanel
             ? CGPoint(x: oldFrame.midX, y: oldFrame.midY)
@@ -80,12 +83,22 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         var newFrame = CGRect(origin: .zero, size: targetSize)
         newFrame.origin = CGPoint(x: center.x - targetSize.width / 2, y: center.y - targetSize.height / 2)
 
+        if let visibleFrame = (panel.screen ?? NSScreen.main)?.visibleFrame {
+            newFrame.origin.x = min(max(newFrame.minX, visibleFrame.minX), max(visibleFrame.minX, visibleFrame.maxX - targetSize.width))
+            newFrame.origin.y = min(max(newFrame.minY, visibleFrame.minY), max(visibleFrame.minY, visibleFrame.maxY - targetSize.height))
+        }
+
+        // Release the previous size limits before changing the window size.
+        panel.minSize = .zero
+        panel.maxSize = CGSize(width: CGFloat.greatestFiniteMagnitude, height: CGFloat.greatestFiniteMagnitude)
+        panel.setFrame(newFrame, display: true, animate: animated && didPlaceInitialPanel)
         panel.minSize = targetSize
         panel.maxSize = targetSize
-        panel.setFrame(newFrame, display: true, animate: animated && didPlaceInitialPanel)
-        panel.makeKeyAndOrderFront(nil)
-        if store.isExpanded {
-            NSApp.activate(ignoringOtherApps: true)
+        if activate {
+            panel.makeKeyAndOrderFront(nil)
+            if store.isExpanded {
+                NSApp.activate(ignoringOtherApps: true)
+            }
         }
         didPlaceInitialPanel = true
     }
@@ -109,6 +122,17 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             Task { @MainActor in
                 self?.resizePanel(animated: true)
                 self?.observeExpansionState()
+            }
+        }
+    }
+
+    private func observeWidgetScale() {
+        withObservationTracking {
+            _ = preferences.widgetScale
+        } onChange: { [weak self] in
+            Task { @MainActor in
+                self?.resizePanel(animated: false, activate: false)
+                self?.observeWidgetScale()
             }
         }
     }

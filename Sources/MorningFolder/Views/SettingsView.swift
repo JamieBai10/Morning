@@ -10,6 +10,38 @@ struct SettingsView: View {
     var body: some View {
         TabView {
             Form {
+                Section("应用缩放") {
+                    HStack {
+                        Text("缩放比例")
+                        Spacer()
+                        Text(preferences.widgetScale, format: .percent.precision(.fractionLength(0)))
+                            .monospacedDigit()
+                            .foregroundStyle(.secondary)
+                    }
+                    Slider(value: $preferences.widgetScale, in: WidgetScale.range, step: 0.05) {
+                        Text("缩放比例")
+                    } minimumValueLabel: {
+                        Text("50%")
+                    } maximumValueLabel: {
+                        Text("100%")
+                    }
+                    .labelsHidden()
+                    .accessibilityLabel("应用缩放比例")
+
+                    Text("同步调整桌面文件夹和展开面板的大小，立即生效并自动保存。")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                    Button("恢复默认（100%）") {
+                        preferences.widgetScale = WidgetScale.defaultValue
+                    }
+                    .disabled(preferences.widgetScale == WidgetScale.defaultValue)
+                }
+            }
+            .formStyle(.grouped)
+            .padding()
+            .tabItem { Label("外观", systemImage: "slider.horizontal.3") }
+
+            Form {
                 Section("昨日回声的数据来源") {
                     Toggle("苹果日历", isOn: calendarSourceBinding(.appleCalendar))
                     Text("仅当启用苹果日历且“昨日回声”需要读取数据时，Morning 才会请求日历访问权限。")

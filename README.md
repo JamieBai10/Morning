@@ -6,7 +6,7 @@
 
 一款用 SwiftUI 与 AppKit 构建的 macOS 桌面晨报应用。
 
-[下载 Morning 0.1.2](https://github.com/JamieBai10/Morning/raw/refs/tags/v0.1.2/Morning-macOS.zip) · [版本说明](https://github.com/JamieBai10/Morning/releases/tag/v0.1.2) · [反馈问题](https://github.com/JamieBai10/Morning/issues)
+[下载 Morning 0.1.3](https://github.com/JamieBai10/Morning/releases/download/v0.1.3/Morning-macOS.zip) · [版本说明](https://github.com/JamieBai10/Morning/releases/tag/v0.1.3) · [反馈问题](https://github.com/JamieBai10/Morning/issues)
 
 macOS 14+ · Apple 芯片 · 源码 MIT
 
@@ -62,15 +62,21 @@ Morning 平时是桌面上一个可移动的小文件夹。点击展开，就能
   <img src="Docs/images/mood.gif" alt="Mood 每日配色、幸运饼干与快速记录演示" width="480">
 </p>
 
+## 外观与窗口行为
+
+在 **Morning → Settings… → 外观** 中调整应用缩放，范围 **50%–100%**，每档 5%。桌面文件夹与展开面板同步缩放，立即生效并在重启后保留；点击「恢复默认（100%）」即可还原。
+
+Morning 使用普通窗口层级。切换到浏览器或其他应用时，它们可以盖住 Morning；需要时可从 Dock 或菜单中的「Show Morning」重新唤起。
+
 ## 下载与安装
 
-**[下载 Morning 0.1.2（macOS 安装包）](https://github.com/JamieBai10/Morning/raw/refs/tags/v0.1.2/Morning-macOS.zip)**
+**[下载 Morning 0.1.3（macOS 安装包）](https://github.com/JamieBai10/Morning/releases/download/v0.1.3/Morning-macOS.zip)**
 
 | 项目 | 要求 |
 | :--- | :--- |
 | 芯片 | Apple 芯片 Mac（M 系列）；Intel Mac 暂不支持 |
 | 系统 | 最低 macOS 14；尚未逐一实机验证所有系统版本 |
-| 当前版本 | 0.1.2 |
+| 当前版本 | 0.1.3 |
 | 签名状态 | 当前安装包尚未经 Apple 公证 |
 
 1. 下载并解压 ZIP，将 `Morning.app` 拖入「应用程序」。
