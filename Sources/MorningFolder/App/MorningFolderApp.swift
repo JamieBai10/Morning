@@ -47,7 +47,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         panel.backgroundColor = .clear
         panel.hasShadow = false
         panel.isReleasedWhenClosed = false
-        panel.isMovableByWindowBackground = true
+        // Explicit drag surfaces own window movement; automatic background
+        // dragging can compete with SwiftUI gestures and editable controls.
+        panel.isMovable = true
+        panel.isMovableByWindowBackground = false
         panel.hidesOnDeactivate = false
         panel.ignoresMouseEvents = false
         // Share the normal window layer so other apps can cover Morning.

@@ -8,6 +8,12 @@ struct ExpandedFolderView: View {
     var body: some View {
         ZStack(alignment: .topLeading) {
             cardShell
+                .overlay {
+                    WindowDragRegion(onClick: dismissTransientState)
+                        .padding(.horizontal, 22)
+                        .padding(.top, 42)
+                        .padding(.bottom, 22)
+                }
 
             tabButtons
 

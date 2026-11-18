@@ -32,12 +32,8 @@ struct CollapsedFolderView: View {
     }
 
     private var openHitArea: some View {
-        Rectangle()
-            .fill(.clear)
-            .frame(width: 214, height: 164)
-            .offset(x: 16, y: 32)
-            .contentShape(Rectangle())
-            .onTapGesture(perform: onOpen)
+        WindowDragRegion(onClick: onOpen)
+            .frame(width: 246, height: 218)
             .accessibilityLabel("Open Morning Folder")
     }
 
